@@ -1,14 +1,18 @@
 <template>
     <h1>发现</h1>
     <SwiperCom/>
+    <IconList/>
+    <MusicList/>
 </template>
 
 <script>
 import SwiperCom from "@/components/swiper/SwiperCom";
+import IconList from "@/components/icon-list/IconList";
+import MusicList from "@/components/music-list/MusicList";
 export default {
   name: 'HomeView',
   components: {
-    SwiperCom
+    SwiperCom,IconList,MusicList
   }
 }
 </script>

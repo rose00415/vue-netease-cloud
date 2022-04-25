@@ -32,7 +32,8 @@
 
 <script>
     export default {
-        name: "HeaderCom"
+        name: "HeaderCom",
+        
     }
 </script>
 
