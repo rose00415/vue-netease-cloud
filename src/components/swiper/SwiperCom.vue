@@ -31,9 +31,9 @@
             this.getBannerImgs()
 
         },
-        mounted() {
+        updated() {
             const mySwiper=new  Swiper('.swiper-container',{//括号里，可以id class 只要能找到对应的cort
-                loop:true,
+                // loop:true,
                 autoplay:true
             })
         },

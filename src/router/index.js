@@ -8,6 +8,7 @@ const ProfileVIew=()=>import('../views/ProfileVIew')
 const YunCunView=()=>import('../views/YunCunView')
 const VideoView=()=>import('../views/VideoView')
 const SearchView=()=>import('../views/SearchView')
+const ListView=()=>import('../views/ListView')
 const routes = [
     {
         path: '/',
@@ -23,19 +24,27 @@ const routes = [
         path: '/profile',
         name: 'profile',
         component: ProfileVIew
-    }, {
+    },
+    {
         path: '/yun-cun',
         name: 'yunCun',
         component:YunCunView
-    }, {
+    },
+    {
         path: '/video',
         name: 'video',
         component:VideoView
-    }, {
+    },
+    {
         path: '/search',
         name: 'search',
         component:SearchView
     },
+    {
+        path: '/list-view',
+        name: 'listview',
+        component: ListView
+    }
 ]
 
 const router = createRouter({
